@@ -258,3 +258,15 @@ header nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+.btn {
+  color: #FFFFFF;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0 10px 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px #C0C0C0;
+  background-color: #17A2B8;
+}
