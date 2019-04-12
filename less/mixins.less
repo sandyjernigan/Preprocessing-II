@@ -4,3 +4,16 @@
     justify-content: @justify;
     align-items: @align;
 }
+
+.button(@button-bg: @button-bg, @textColor: @main-bg, @shadowColor: @navigation-border) {
+    color: @textColor;
+    width: 95%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px @shadowColor;
+    background-color: @button-bg;
+  }
