@@ -1,11 +1,21 @@
 // Navigation Styles here
 
 header {
+    border-bottom: 2px dashed @navigation-border;
+
+    section {
+        .flexBox(space-between, center); 
+        margin: 20px auto;
+        max-width: 800px;
+        width: 100%;
+    }
 
     nav {
+        .flexBox(space-between, center); 
 
         li {
             list-style: none;
+            margin: 10px 20px;
         } // header nav a
 
         a {
