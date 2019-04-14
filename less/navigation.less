@@ -1,1 +1,34 @@
 // Navigation Styles here
+
+header {
+    border-bottom: 2px dashed @navigation-border;
+    section {
+        .flexBox(space-between, center); 
+        margin: 20px auto 10px;
+        max-width: 800px;
+        width: 100%;
+        padding: 0 20px;
+
+        @media @mobile {
+            display: block;
+            text-align: center;
+            font-size: 3.2rem;
+        }
+    }
+
+    nav {
+        .flexBox(space-between, center); 
+
+        li {
+            list-style: none;
+            margin: 10px 15px;
+        } // header nav a
+
+        a {
+            font-family: @bodyFont;  
+            font-size: 1.4rem;
+            color: @font-color;
+            text-decoration: none; 
+        } // header nav a
+    } // header nav
+} // header
